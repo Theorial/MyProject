@@ -1,14 +1,87 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zhihua Li | Professional Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-<h1>Zhihua Li</h1>
-<p>Computer is an amazing product, I fall in love with it in the first encounter.We have our first computer at 
-home when I was 9 years old, what my parents told me  is that it has a lot of games in there that I can play.
-I ended up diving deep into computer and look for what entertains me. And there comes my whole childhood life.
-</br>
-With my early and deep connection with computer, I decided to take CST major when I grow up. So that I can know 
-how computer actually work under the hood. It is amazing, but I want to know what makes it amazing and how to 
-make it happen. That is my main passion to learn coding.
-</p>
+    <header>
+        <div class="container">
+            <h1>Zhihua(Tonny) Li</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="section-light">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <img src="./profile_pic.jpg" alt="Profile picture" class="profile-img">
+                    <div class="about-text">
+                        <p>Hello! I'm Tonny, currently a senior in NYCCT.Taking the database track under the CST major.
+                             I like to explore behind applications to see what make them function that way.
+                             So I'm open to learn both front-end and back-end development</p>
+                        <p>When I'm not coding, you can find me playing video game, reading novel or researching
+                             on the stuff that I found interesting at that moment.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="resume" class="section-dark">
+            <div class="container">
+                <h2>My Resume</h2>
+                <div class="resume-content">
+                    <div class="resume-section">
+                        <h3>Education</h3>
+                        <ul>
+                            <li>pursuing BS in Computer Science - NYCCT </li>
+                        </ul>
+                    </div>
+                    <div class="resume-section">
+                        <h3>Skills</h3>
+                        <ul>
+                            <li>HTML5 & CSS3</li>
+                            <li>SQL</li>
+                            <li>Database design</li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="resume.pdf" class="btn" download>Download Full Resume (PDF)</a>
+            </div>
+        </section>
+
+        <section id="contact" class="section-light">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> zhihua.li@mail.citytech.cuny.edu</p>
+                        <p><i class="fas fa-phone"></i> (347) 438-8791</p>
+                        <a href="https://www.linkedin.com/in/zhihua-li-b570932b8/" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i> LinkedIn Profile
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Zhihua Li. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
